@@ -1,0 +1,11 @@
+{
+  "type": "single",
+  "fields": [
+    { "name" : "image", "type": "image" },
+    { "name" : "title", "type": "string" },
+    { "name" : "description", "type": "text" },
+    { "name" : "date", "type": "date" },
+    { "name" : "file", "type": "file" },
+    { "name" : "enum", "type": "enum", "options": [ 1 , 2 , 3 ] }
+  ]
+}
